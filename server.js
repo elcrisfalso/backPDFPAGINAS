@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 // CORS: permitir acceso desde Netlify
 app.use(cors({
-  origin: 'https://thunderous-frangollo-78cd26.netlify.app',
+  origin: 'https://pdfpaginas.netlify.app',
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type']
 }));
